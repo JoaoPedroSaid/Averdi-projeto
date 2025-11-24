@@ -1,0 +1,113 @@
+:root{
+    --branco: #F1F8E9;
+    --preto: #1F1311;
+    --verde: #9FBB50;
+    --musgo: #58752D;
+    --marrom: #8F6F64;
+    --terra: #5D4037;
+    --azul: #81D4FA;
+    --marinho: #3D9DB8;
+}
+
+body{
+    color: var(--branco);
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.logoimg{
+    margin-left: 20%;
+}
+
+.banner{
+    width: 100%;
+    height: auto;
+
+}
+
+.texto{
+    color: var(--preto);
+    text-align: center;
+    margin: 3% auto;
+    font-size: clamp(0.9rem, 2vw, 1.25rem);
+    max-width: 70%;
+    padding: 0 2vw;
+}
+
+.grifado{
+    color: var(--musgo);
+}
+
+.listap{
+    color: var(--terra);
+    margin: 3% auto;
+    font-size: clamp(0.9rem, 2vw, 1.25rem);
+    max-width: 60%;
+    padding: 0 2vw;
+}
+
+a{
+    text-decoration: none;
+}
+
+#a{
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+
+.footer {
+    background: var(--azul);
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #215563;
+    font-size: 110%;
+}
+
+.links{
+    list-style-type: none;
+    padding-top: 20px;
+    font-size: clamp(0.9rem, 2vw, 1.25rem);
+}
+
+.redes{
+    gap: 5px;
+    font-size: clamp(0.9rem, 2vw, 1.25rem);
+}
+
+.ft{
+    opacity: 70%;
+    width: 7%;
+}
+
+a{
+    color: inherit;
+}
+
+.decor {
+    padding-top: 20px;
+    position: absolute;
+    top: 0;
+    height: 80%;
+    opacity: 0.35; 
+    pointer-events: none;
+}
+
+.decor-left {
+    left: clamp(0px, 5vw, 50px);
+}
+
+.decor-right {
+    right: clamp(0px, 5vw, 50px);
+}
