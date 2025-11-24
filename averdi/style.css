@@ -22,7 +22,6 @@ body{
 .banner{
     width: 100%;
     height: auto;
-
 }
 
 .texto{
@@ -31,6 +30,14 @@ body{
     margin: 3% auto;
     font-size: clamp(0.9rem, 2vw, 1.25rem);
     max-width: 70%;
+    padding: 0 2vw;
+}
+.texto1{
+    color: var(--preto);
+    text-align: left;
+    margin: 3% auto 3% 16%;
+    font-size: clamp(0.9rem, 2vw, 1.25rem);
+    max-width: 55%;
     padding: 0 2vw;
 }
 
@@ -110,4 +117,33 @@ a{
 
 .decor-right {
     right: clamp(0px, 5vw, 50px);
+}
+
+.titulo{
+    color: var(--marinho);
+    text-align: center;
+    margin: 4% auto;
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    max-width: 70%;
+}
+.titulo1{
+    color: var(--musgo);
+    padding-left: 3%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    margin: 7% auto 3% auto;
+    font-size: clamp(1.25rem, 1.75vw, 2.5rem);
+    max-width: 70%;
+}
+
+.imagem{
+    width: 50vw;
+    height: auto;
+    margin-left: 18%;
+    border-radius: 2%;
+    transition: transform 0.4s ease;
+}
+
+.imagem:hover{
+    transform: scale(1.01);
 }
