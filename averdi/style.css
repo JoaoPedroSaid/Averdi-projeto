@@ -45,6 +45,17 @@ body{
     color: var(--musgo);
 }
 
+.grifado1{
+    display: inline-block;
+    color: var(--marinho);
+    transition: transform ease 0.4s;
+}
+
+.grifado1:hover{
+    transform: translateY(-5px);
+}
+
+
 .listap{
     color: var(--terra);
     margin: 3% auto;
@@ -125,7 +136,13 @@ a{
     margin: 4% auto;
     font-size: clamp(1.5rem, 3vw, 3rem);
     max-width: 70%;
+    transition: transform ease 0.4s;
 }
+
+.titulo:hover{
+    transform: translateY(-5px);
+}
+
 .titulo1{
     color: var(--musgo);
     padding-left: 3%;
@@ -140,7 +157,7 @@ a{
     width: 50vw;
     height: auto;
     margin-left: 18%;
-    border-radius: 2%;
+    border-radius: 10px;
     transition: transform 0.4s ease;
 }
 
